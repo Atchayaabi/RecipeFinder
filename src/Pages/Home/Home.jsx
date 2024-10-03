@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../../Components/Hero'
+import Menu from '../Menu/Menu'
 
 const Home = () => {
  
@@ -7,6 +8,7 @@ const Home = () => {
   return (
     <>
       <Hero/>
+      <Menu/>
     </>
   )
 }
